@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Component/Header'
 import "../Pages/Games.css"
+import { Link } from 'react-router-dom'
 
 function Games() {
   <div class='sale'>Very Specailly Sale Price</div>
@@ -24,7 +25,7 @@ function Games() {
         {
           products.map(product => {
             return (
-              <div clasNames="Addcart">
+              <div classNames="cart">
                 <img src={product.image} class="card-img-top" />
                 <div class="card-body">
                   <h5 class="card-title">{product.name}</h5>

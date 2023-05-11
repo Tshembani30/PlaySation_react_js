@@ -9,11 +9,12 @@ import ContactUs from './Pages/ContactUs';
 import AboutUs from './Pages/AboutUs';
 import Games from './Pages/Games';
 import Hardware from './Pages/Hardware';
-import Servies from './Pages/Servies';
+import Services from './Pages/Services';
 import Shop from './Pages/Shop';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import ErrorPage from "./Pages/error-page";
+import Cart from './Pages/Cart';
 
 
 function ErrorBoundary() {
@@ -46,8 +47,8 @@ const router = createBrowserRouter([
     element: <Hardware/>,
   },
   {
-    path: "/servies",
-    element: <Servies/>,
+    path: "/Services",
+    element: <Services/>,
   },
   {
     path: "/shop",
@@ -61,7 +62,10 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register/>,
   },
-  
+  {
+    path: "/cart",
+    element: <Cart/>,
+  },
 ]);
 
 

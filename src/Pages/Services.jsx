@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../Component/Header'
 import Carousel from 'react-bootstrap/Carousel';
-import '../Pages/Servies.css'
+import '../Pages/Services.css'
 
-const Servies = () => {
+const Services = () => {
   return (
     <div>
       <Header />
@@ -31,7 +31,7 @@ const Servies = () => {
       <br />
       <br />
       <h1>Wireless Headset</h1>
-      <div className='Funn'>
+      <div className='Funny'>
       
       Enjoy up to 12 hours of wireless play 
       <br></br>
@@ -42,7 +42,7 @@ const Servies = () => {
       computers using the included adaptor.
     
       </div>
-      <div clasName='Headset'>
+      <div className='Headset'>
       <img src="https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-wireless-headset-image-block-01-en-17jul20?$1600px$" alt="" width="850" height="500" />
       </div>
       <br />
@@ -66,4 +66,4 @@ const Servies = () => {
   )
 }
 
-export default Servies
+export default Services
