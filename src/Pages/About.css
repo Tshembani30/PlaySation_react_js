@@ -1,0 +1,31 @@
+.grid-containers {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+  
+  .grid-containers > div {
+    /* background-color: rgba(20, 189, 37, 0.8); */
+    text-align: center;
+    padding: 60px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+  }
+  h4{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* .page-wrapper{
+    bottom: 0;
+    width: 100%;
+    z-index: 1111;
+  } */
+
+  /* .bg-light text-center text-center text lg-start text-muted{
+
+  } */

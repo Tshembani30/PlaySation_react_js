@@ -1,0 +1,41 @@
+.form {
+    background-color: white;
+    border-radius: 8px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 500px;
+    margin-top: 5%;
+    border: 3px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+h3{
+    color: black;
+    text-align: center;
+
+}
+
+.form-body {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body>* {
+    padding: 5px;
+}
+
+.form__label {
+    width: 40%;
+
+}
+
+.form_input {
+    width: 60%;
+}
+
+.footer {
+    text-align: center;
+
+}
+
