@@ -33,13 +33,13 @@ const Services = () => {
       <h1>Wireless Headset</h1>
       <div className='Funny'>
       
-      Enjoy up to 12 hours of wireless play 
+      {/* Enjoy up to 12 hours of wireless play 
       <br></br>
       thanks to the built-in rechargeable battery.
       <br></br>
       Connect to PS5 and PS4™ consoles as well as
       <br></br> compatible Windows and macOS® 
-      computers using the included adaptor.
+      computers using the included adaptor. */}
     
       </div>
       <div className='Headset'>
