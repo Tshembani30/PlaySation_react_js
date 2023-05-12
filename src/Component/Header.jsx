@@ -9,6 +9,7 @@ import Cart from "../Pages/Cart";
 function Header() {
   return (
     <Navbar bg="light" expand="lg">
+      <Cart/>
       <Container>
         <Navbar.Brand href="#home">PlayStation</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,7 +22,7 @@ function Header() {
             <Nav.Link href="/hardware">Hardware</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
             <Nav.Link href="/shop">Shop</Nav.Link>
-
+            
             <div className="rightSide">
               <Nav.Link href="/login">Login</Nav.Link>
               <Nav.Link href="/register">Register</Nav.Link>

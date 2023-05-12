@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "name": "The Last of Us Part II",
+      "price": 709.00,
+      "sale": 270.00,
+      "imgUrl": "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-keyart-01-en-18may22?$1600px$"
+    },
+    {
+      "id": 2,
+      "name": "Marvels Spider-Man",
+      "price":1000.00 ,
+      "sale": 569.00,
+      "imgUrl": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-spiderman-miles-morales-image-block-en-26aug22?$1600px--t$"
+    },
+    {
+      "id": 3,
+      "name": "Legacy of Thieves Collection",
+      "price": 1700.00,
+      "sale": 880.00,
+      "imgUrl": "https://gmedia.playstation.com/is/image/SIEPDC/uncharted-legacy-of-thieves-hero-keyart-02-en-15sep21?$1600px$"
+    },
+    {
+      "id": 4,
+      "name": "Resident Evil",
+      "price": 1649.00,
+      "sale": 749.00,
+      "imgUrl": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-resident-evil-image-block-02-en-28jul21?$1600px--t$"
+    },
+    {
+        "id": 5,
+        "name": "DISCOVER GOD OF WAR",
+        "price": 1449.00,
+        "sale": 1109.00,
+        "imgUrl": "https://i.ytimg.com/vi/g1wr0DfV73E/maxresdefault.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Returnal Game",
+        "price": 1360.00,
+        "sale": 680.00,
+        "imgUrl": "https://gmedia.playstation.com/is/image/SIEPDC/tmop-returnal-image-block-01-en-20apr21?$1600px$"
+      },
+      {
+        "id": 7,
+        "name": "Days Gone",
+        "price": 1199.00,
+        "sale": 851.29,
+        "imgUrl": "https://gmedia.playstation.com/is/image/SIEPDC/days-gone-listing-thumb-01-ps4-us-10jan19?$1600px$"
+      },
+      {
+        "id": 8,
+        "name": "Gran Turismo 7",
+        "price": 1340.75,
+        "sale": 1130.00,
+        "imgUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2806/y4liLwBLXmhWHIvakDIMG1T1.jpg?w=780&thumb=false"
+      }
+      
+  ]
+  
