@@ -1,6 +1,6 @@
-import Carousel from 'react-bootstrap/Carousel';
-import React from 'react';
-import './Slider.css'
+import Carousel from "react-bootstrap/Carousel";
+import React from "react";
+import "./Slider.css";
 
 function Slider() {
   return (
@@ -13,6 +13,7 @@ function Slider() {
             alt="First slide"
           />
           <Carousel.Caption>
+            <p>The Best Games Out There</p>
             <h1>Get the free PlayStation App from the iOS App Store.</h1>
           </Carousel.Caption>
         </Carousel.Item>
@@ -23,13 +24,12 @@ function Slider() {
             alt="Second slide "
           />
           <Carousel.Caption>
+            <p>The Best Games Out There</p>
             <h1>LGet the free PlayStation App from the iOS App Store.</h1>
           </Carousel.Caption>
         </Carousel.Item>
-        
       </Carousel>
     </>
-
   );
 }
 
