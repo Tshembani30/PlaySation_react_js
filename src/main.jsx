@@ -10,7 +10,7 @@ import AboutUs from './Pages/AboutUs';
 import Games from './Pages/Games';
 import Hardware from './Pages/Hardware';
 import Services from './Pages/Services';
-import Shop from './Pages/Shop';
+// import Shop from './Pages/Shop';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 import ErrorPage from "./Pages/error-page";
@@ -49,10 +49,6 @@ const router = createBrowserRouter([
   {
     path: "/Services",
     element: <Services/>,
-  },
-  {
-    path: "/shop",
-    element: <Shop/>,
   },
   {
     path: "/login",

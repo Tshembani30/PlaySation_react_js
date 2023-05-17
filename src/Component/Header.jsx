@@ -21,7 +21,6 @@ function Header() {
             <Nav.Link href="/games">Games</Nav.Link>
             <Nav.Link href="/hardware">Hardware</Nav.Link>
             <Nav.Link href="/services">Services</Nav.Link>
-            <Nav.Link href="/shop">Shop</Nav.Link>
             
             <div className="rightSide">
               <Nav.Link href="/login">Login</Nav.Link>

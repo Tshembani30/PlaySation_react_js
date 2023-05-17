@@ -4,14 +4,13 @@
     width: 550px;
     margin: 20px auto;
     padding: 20px;
-    height: 500px;
     margin-top: 5%;
     border: 3px solid;
     padding: 10px;
     box-shadow: 5px 10px #888888;
 }
 h3{
-    color: black;
+    color:rgb(106, 106, 155);
     text-align: center;
 
 }
@@ -26,7 +25,7 @@ h3{
 }
 
 .form__label {
-    width: 40%;
+    width: 30%;
 
 }
 
@@ -38,4 +37,9 @@ h3{
     text-align: center;
 
 }
+.form__label{
+    margin: 8px;
+}
+
+
 

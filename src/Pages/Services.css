@@ -1,7 +1,8 @@
-h1{
+h1,p{
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     font: bolder;
+    margin-left: 7%;
    
 }
 
@@ -20,5 +21,5 @@ font-size: 130%;
 }
 
 .img{
-margin: 10%;
+margin: 20%;
 }
