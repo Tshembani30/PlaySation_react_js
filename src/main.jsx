@@ -5,50 +5,39 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Pages/Home';
-import ContactUs from './Pages/ContactUs';
 import AboutUs from './Pages/AboutUs';
-import Games from './Pages/Games';
-import Hardware from './Pages/Hardware';
-import Services from './Pages/Services';
-// import Shop from './Pages/Shop';
+import Facility from './Pages/Facility';
+import Hotel from './Pages/Hotel';
+import Restaurant from './Pages/Restaurant';
+import ContactUs from './Pages/ContactUs';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
-import ErrorPage from "./Pages/error-page";
-import Cart from './Pages/Cart';
 
-
-function ErrorBoundary() {
-  let error = useRouteError();
-  console.error(error);
-  // Uncaught ReferenceError: path is not defined
-  return <div>Dang!</div>;
-}
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
-    errorElement: <ErrorPage />,
   },
   {
-    path: "/contact",
-    element: <ContactUs/>,
-  },
-  {
-    path: "/about",
+    path: "/aboutUs",
     element: <AboutUs/>,
   },
   {
-    path: "/games",
-    element: <Games/>,
+    path: "/facility",
+    element: < Facility/>,
   },
   {
-    path: "/hardware",
-    element: <Hardware/>,
+    path: "/hotel",
+    element: <Hotel/>,
   },
   {
-    path: "/Services",
-    element: <Services/>,
+    path: "/restaurant",
+    element: <Restaurant/>,
+  },
+  {
+    path: "/contactUs",
+    element: <ContactUs/>,
   },
   {
     path: "/login",
@@ -58,10 +47,7 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register/>,
   },
-  {
-    path: "/cart",
-    element: <Cart/>,
-  },
+  
 ]);
 
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../Component/Header'
-import Footer from '../Component/Footer'
-import '../Pages/About.css'
+import '../Pages/AboutUs.css'
 
 
 const AboutUs = () => {
     return (
        <div>
-        
+        <Header/>
+        About storytelling
        </div>
     )
 }

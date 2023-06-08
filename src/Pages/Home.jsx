@@ -1,7 +1,7 @@
 
 import Header from '../Component/Header'
 import Slider from '../Component/Slider.jsx'
-import Footer from '../Component/Footer'
+//import Footer from '../Component/Footer'
 import '../Pages/Home.css'
 
 
@@ -12,7 +12,8 @@ function Home() {
     <div>
       <Header/>
       <Slider/>
-      <Footer/>
+      
+      {/* //<Footer/> */}
 
     </div>
   )

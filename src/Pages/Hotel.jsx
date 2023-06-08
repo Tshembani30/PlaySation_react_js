@@ -1,10 +1,9 @@
 import React from 'react'
 import Header from '../Component/Header'
-import "../Pages/Games.css"
+import "../Pages/Hotel.css"
 import { Link } from 'react-router-dom'
-import Cart from './Cart'
 
-function Games() {
+function Hotel() {
   <div class='sale'>Very Special Sale Price</div>
   const products = [
     { name: 'The Last of Us Part II',story:' -Encounter new survivor groups, unfamiliar and treacherous environments, and terrifying evolutions of the infected.Brought to life by the latest iteration.', price: 'R709.00', sale:'R270.00', image: 'https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-keyart-01-en-18may22?$1600px$' },
@@ -49,4 +48,4 @@ function Games() {
   )
 }
 
-export default Games
+export default Hotel
